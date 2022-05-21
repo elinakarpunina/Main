@@ -1,7 +1,8 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.io.IOException;
-
+// Данный калькулятор, к сожалению, не выбрасывает обработанное исключение при вводе операции, состоящей одновременно из цифр римской и арабской системы исчисления
+// Также имеет некоторые недоработки при работе с римскими цифрами
 public class MainCalculator {
     static Scanner scan = new Scanner(System.in);
     static int var1, var2;
